@@ -23,3 +23,6 @@ E.g. in Firefox:
 
 You may also be able to clone the repository and use a `file://` URL (tested in
 Firefox).
+
+This only works with the SSH proxy command above. You need a DESY account to
+make the SSH connection.
