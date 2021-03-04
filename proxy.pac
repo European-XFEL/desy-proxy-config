@@ -7,6 +7,7 @@ function FindProxyForURL (url, host) {
       ,'exflmon01.desy.de'
       ,'darf-dachs.desy.de'
       ,'131.169.203.96'
+      ,'exfldadev01.desy.de'
      ].indexOf(host) >= 0) {
     return 'SOCKS localhost:22222';
   }
