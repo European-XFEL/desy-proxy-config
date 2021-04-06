@@ -6,6 +6,7 @@ function FindProxyForURL (url, host) {
       ,'ctrend.xfel.eu'
       ,'exflmon01.desy.de'
       ,'darf-dachs.desy.de'
+	  ,'ias.desy.de'
       ,'131.169.203.96'
       ,'exfldadev01.desy.de'
      ].indexOf(host) >= 0) {
