@@ -3,6 +3,7 @@ function FindProxyForURL (url, host) {
        'registry.desy.de'
       ,'callmgr.desy.de'
       ,'exflserv05.desy.de'
+      ,'exflserv06.desy.de'
       ,'ctrend.xfel.eu'
       ,'exflmon01.desy.de'
       ,'darf-dachs.desy.de'
