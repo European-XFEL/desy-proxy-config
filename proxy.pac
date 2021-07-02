@@ -10,6 +10,7 @@ function FindProxyForURL (url, host) {
       ,'ias.desy.de'
       ,'131.169.203.96'
       ,'exfldadev01.desy.de'
+      ,'passman.xfel.eu'
      ].indexOf(host) >= 0) {
     return 'SOCKS localhost:22222';
   }
