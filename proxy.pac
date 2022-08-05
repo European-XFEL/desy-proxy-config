@@ -14,6 +14,7 @@ function FindProxyForURL (url, host) {
       ,'ctrend.xfel.eu'
       ,'max-exfl016.desy.de'
       ,'max-exfl017.desy.de'
+      ,'exflocdm'
      ].indexOf(host) >= 0) {
     return 'SOCKS localhost:22222';
   }
