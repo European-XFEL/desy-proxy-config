@@ -9,6 +9,7 @@ function FindProxyForURL (url, host) {
       ,'ias.desy.de'
       ,'131.169.203.96'
       ,'exfldadev01.desy.de'
+      ,'devpi.exfldadev01.desy.de'
       ,'passman.xfel.eu'
       ,'remcom.xfel.eu'
       ,'ctrend.xfel.eu'
