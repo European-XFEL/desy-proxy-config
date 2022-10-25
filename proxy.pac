@@ -5,6 +5,8 @@ function FindProxyForURL (url, host) {
       ,'exflserv05.desy.de'
       ,'exflserv06.desy.de'
       ,'exflmon01.desy.de'
+      ,'exflrtdtest.desy.de'
+      ,'dachs.desy.de'
       ,'darf-dachs.desy.de'
       ,'ias.desy.de'
       ,'131.169.203.96'
@@ -15,8 +17,7 @@ function FindProxyForURL (url, host) {
       ,'ctrend.xfel.eu'
       ,'max-exfl016.desy.de'
       ,'max-exfl017.desy.de'
-      ,'exflocdm.desy.de'
-      ,'dachs.desy.de'
+      ,'exflocdm.desy.de' 
      ].indexOf(host) >= 0) {
     return 'SOCKS localhost:22222';
   }
