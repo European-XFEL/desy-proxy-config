@@ -1,7 +1,7 @@
 function FindProxyForURL (url, host) {
   // These hosts are publicly accessible
   if ([
-       'xfel.eu',
+       'xfel.eu'
       ,'www.xfel.eu'
       ,'in.xfel.eu'
       ,'git.xfel.eu'
@@ -15,7 +15,7 @@ function FindProxyForURL (url, host) {
       ,'max-exfl-display.desy.de'
       ,'max-jhub.desy.de'
       ,'bastion.desy.de'
-     ].indexOf(host) >= 0 {
+     ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
   // Proxy for everything else under .desy.de or .xfel.eu
