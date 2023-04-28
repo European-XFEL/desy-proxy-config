@@ -6,6 +6,7 @@ function FindProxyForURL (url, host) {
       ,'in.xfel.eu'
       ,'git.xfel.eu'
       ,'rtd.xfel.eu'
+      ,'syncandshare.xfel.eu'
       ,'desy.de'
       ,'www.desy.de'
       ,'it.desy.de'
