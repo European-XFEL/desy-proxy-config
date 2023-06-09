@@ -9,6 +9,7 @@ function FindProxyForURL (url, host) {
       ,'rtd.xfel.eu'
       ,'syncandshare.xfel.eu'
       ,'redmine.xfel.eu'
+      ,'visa.xfel.eu'
       ,'desy.de'
       ,'www.desy.de'
       ,'it.desy.de'
