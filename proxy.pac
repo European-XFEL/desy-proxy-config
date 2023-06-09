@@ -15,6 +15,7 @@ function FindProxyForURL (url, host) {
       ,'it.desy.de'
       ,'mail.desy.de'
       ,'passwd.desy.de'
+      ,'keycloak.desy.de'
       ,'max-display.desy.de'
       ,'max-exfl-display.desy.de'
       ,'max-jhub.desy.de'
