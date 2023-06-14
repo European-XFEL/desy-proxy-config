@@ -20,6 +20,7 @@ function FindProxyForURL (url, host) {
       ,'max-exfl-display.desy.de'
       ,'max-jhub.desy.de'
       ,'bastion.desy.de'
+      ,'gitlab.desy.de'
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
