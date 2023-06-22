@@ -23,6 +23,7 @@ function FindProxyForURL (url, host) {
       ,'gitlab.desy.de'
       ,'notes.desy.de'
       ,'it-cloudoffice-sys01.desy.de'  // OnlyOffice in Sync&Share
+      ,'rt-system.desy.de'
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
