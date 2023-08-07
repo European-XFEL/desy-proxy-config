@@ -25,6 +25,7 @@ function FindProxyForURL (url, host) {
       ,'it-cloudoffice-sys01.desy.de'  // OnlyOffice in Sync&Share
       ,'rt-system.desy.de'
       ,'chat.desy.de'
+      ,'indico.desy.de'
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
