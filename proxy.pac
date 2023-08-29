@@ -1,31 +1,32 @@
 function FindProxyForURL (url, host) {
   // These hosts are publicly accessible
   if ([
-       'xfel.eu'
-      ,'www.xfel.eu'
-      ,'in.xfel.eu'
+       'bastion.desy.de'
+      ,'chat.desy.de'
+      ,'confluence.desy.de'
+      ,'desy.de'
       ,'docs.xfel.eu'
       ,'git.xfel.eu'
-      ,'rtd.xfel.eu'
-      ,'syncandshare.xfel.eu'
-      ,'redmine.xfel.eu'
-      ,'visa.xfel.eu'
-      ,'desy.de'
-      ,'www.desy.de'
+      ,'gitlab.desy.de'
+      ,'in.xfel.eu'
+      ,'indico.desy.de'
+      ,'it-cloudoffice-sys01.desy.de'  // OnlyOffice in Sync&Share
       ,'it.desy.de'
-      ,'mail.desy.de'
-      ,'passwd.desy.de'
       ,'keycloak.desy.de'
+      ,'mail.desy.de'
       ,'max-display.desy.de'
       ,'max-exfl-display.desy.de'
       ,'max-jhub.desy.de'
-      ,'bastion.desy.de'
-      ,'gitlab.desy.de'
       ,'notes.desy.de'
-      ,'it-cloudoffice-sys01.desy.de'  // OnlyOffice in Sync&Share
+      ,'passwd.desy.de'
+      ,'redmine.xfel.eu'
       ,'rt-system.desy.de'
-      ,'chat.desy.de'
-      ,'indico.desy.de'
+      ,'rtd.xfel.eu'
+      ,'syncandshare.xfel.eu'
+      ,'visa.xfel.eu'
+      ,'www.desy.de'
+      ,'www.xfel.eu'
+      ,'xfel.eu'
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
