@@ -8,7 +8,7 @@ function FindProxyForURL (url, host) {
       ,'docs.xfel.eu'
       ,'git.xfel.eu'
       ,'gitlab.desy.de'
-      ,'in.xfel.eu'
+#      ,'in.xfel.eu'
       ,'indico.desy.de'
       ,'it-cloudoffice-sys01.desy.de'  // OnlyOffice in Sync&Share
       ,'it.desy.de'
