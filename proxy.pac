@@ -6,6 +6,7 @@ function FindProxyForURL (url, host) {
       ,'in.xfel.eu'
       ,'docs.xfel.eu'
       ,'git.xfel.eu'
+      ,'lists.xfel.eu'
       ,'rtd.xfel.eu'
       ,'syncandshare.xfel.eu'
       ,'redmine.xfel.eu'
