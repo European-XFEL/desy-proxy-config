@@ -13,6 +13,7 @@ function FindProxyForURL (url, host) {
       ,'desy.de'
       ,'www.desy.de'
       ,'it.desy.de'
+      ,'confluence.desy.de'
       ,'mail.desy.de'
       ,'passwd.desy.de'
       ,'keycloak.desy.de'
