@@ -12,6 +12,7 @@ function FindProxyForURL (url, host) {
       ,'it-cloudoffice-sys01.desy.de'  // OnlyOffice in Sync&Share
       ,'it.desy.de'
       ,'keycloak.desy.de'
+      ,'lists.xfel.eu'
       ,'mail.desy.de'
       ,'max-display.desy.de'
       ,'max-exfl-display.desy.de'
