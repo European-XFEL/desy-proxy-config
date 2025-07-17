@@ -28,6 +28,7 @@ function FindProxyForURL (url, host) {
       ,'rt-system.desy.de'
       ,'chat.desy.de'
       ,'indico.desy.de'
+      ,'s3.desy.de'
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
