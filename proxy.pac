@@ -29,6 +29,7 @@ function FindProxyForURL (url, host) {
       ,'chat.desy.de'
       ,'indico.desy.de'
       ,'s3.desy.de'
+      ,'pages.xfel.eu'
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
