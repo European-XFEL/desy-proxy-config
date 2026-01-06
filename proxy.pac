@@ -29,8 +29,11 @@ function FindProxyForURL (url, host) {
       ,'chat.desy.de'
       ,'indico.desy.de'
       ,'s3.desy.de'
-      ,'pages.xfel.eu'
      ].indexOf(host) >= 0) {
+    return 'DIRECT';
+  }
+  // Gitlab pages are also publicly accessible
+  if (/(\.pages\.xfel\.eu)$/.test(host)) {
     return 'DIRECT';
   }
   // Proxy for everything else under .desy.de or .xfel.eu
