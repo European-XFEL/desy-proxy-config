@@ -32,6 +32,10 @@ function FindProxyForURL (url, host) {
      ].indexOf(host) >= 0) {
     return 'DIRECT';
   }
+  // Gitlab pages are also publicly accessible
+  if (/(\.pages\.xfel\.eu)$/.test(host)) {
+    return 'DIRECT';
+  }
   // Proxy for everything else under .desy.de or .xfel.eu
   if (/(\.desy\.de|\.xfel\.eu)$/.test(host)) {
     return 'SOCKS localhost:22222';
